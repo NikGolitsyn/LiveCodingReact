@@ -20,5 +20,7 @@ module.exports = {
     'react/prop-types': 0,
     'import/prefer-default-export': 0,
     'no-console': 0,
+    'global-require': 0,
+    camelcase: 0,
   },
 };

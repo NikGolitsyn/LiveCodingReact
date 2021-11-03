@@ -31,7 +31,7 @@ class UsersList extends React.Component {
     return (
       <div>
         <Pagination
-          usersPerPage={3}
+          usersPerPage={usersPerPage}
           usersCount={users.length}
           handleNext={this.handleNext}
           handlePrev={this.handlePrev}
